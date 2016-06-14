@@ -1,0 +1,396 @@
+/* Import Google Web fonts */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic);
+
+
+body { /* sets the page defaults e.g. background and default typography */
+background: #e6f2ff;
+font-family: Georgia;
+margin: 0;
+font-size: 20px;
+line-height: 1.25;
+color: rgba(0, 0, 0, 0.74);
+}
+
+header {
+  font-family: 'Georgia', sans-serif;
+  font-weight: 900;
+  color: #fff;
+  position:absolute;
+  bottom:20px;
+  right:20px;
+}
+h2 {
+  margin: 0;
+}
+
+figure {
+  margin: 0; /* resets the left margin in the figure*/
+}
+
+figure img {
+  max-width: 100%; /* images will shrink to fit inside the main conent column*/
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+}
+figcaption {
+  font-size: 14px;
+  color: #555;
+}
+
+.infopanels{
+position: relative;
+margin-top: 80px;
+margin-left: 150px;
+}
+
+.info1{
+  width:300px;
+  background:#fff;
+  font-size:15px;
+  padding:1em;
+  border:1px;
+  position: absolute;
+  right:10px;
+  top: -80px;
+  font-family: Courier;
+  opacity: 0;
+-webkit-transition: opacity 500ms ease-in-out;
+-moz-transition: opacity 500ms ease-in-out;
+-ms-transition: opacity 500ms ease-in-out;
+-o-transition: opacity 500ms ease-in-out;
+transition: opacity 500ms ease-in-out;
+}
+
+.info2{
+  width:300px;
+  background:#fff;
+  font-size:15px;
+  padding:1em;
+  border:1px;
+  position: absolute;
+  right:10px;
+  bottom: 90px;
+  font-family: Courier;
+  opacity:0;
+-webkit-transition: opacity 500ms ease-in-out;
+-moz-transition: opacity 500ms ease-in-out;
+-ms-transition: opacity 500ms ease-in-out;
+-o-transition: opacity 500ms ease-in-out;
+transition: opacity 500ms ease-in-out;
+}
+
+.info3{
+  width:300px;
+  background:#fff;
+  font-size:15px;
+  padding:1em;
+  border:1px;
+  position: absolute;
+  right: 10px;
+  bottom: -60px;
+  font-family: Courier;
+  opacity: 0;
+-webkit-transition: opacity 500ms ease-in-out;
+-moz-transition: opacity 500ms ease-in-out;
+-ms-transition: opacity 500ms ease-in-out;
+-o-transition: opacity 500ms ease-in-out;
+transition: opacity 500ms ease-in-out;
+}
+
+
+.infopanels2{
+  position:relative;
+  margin-top:70px;
+  margin-left: 350px;
+}
+
+.info4{
+  width:300px;
+  background:#fff;
+  font-size:15px;
+  padding:1em;
+  border:1px;
+  position: absolute;
+  left:-340px;
+top: 50px;
+font-family: Courier;
+opacity: 0;
+-webkit-transition: opacity 500ms ease-in-out;
+-moz-transition: opacity 500ms ease-in-out;
+-ms-transition: opacity 500ms ease-in-out;
+-o-transition: opacity 500ms ease-in-out;
+transition: opacity 500ms ease-in-out;
+}
+
+.info5{
+  width:300px;
+  background:#fff;
+  font-size:15px;
+  padding:1em;
+  border:1px;
+  position: absolute;
+  right:10px;
+top: 190px;
+font-family: Courier;
+opacity: 0;
+-webkit-transition: opacity 500ms ease-in-out;
+-moz-transition: opacity 500ms ease-in-out;
+-ms-transition: opacity 500ms ease-in-out;
+-o-transition: opacity 500ms ease-in-out;
+transition: opacity 500ms ease-in-out;
+}
+
+#pitch {
+  background: url(../img/IMG_02.png) no-repeat;
+  position: relative;
+  height: 450px;
+  width: 880px;
+  background-size:contain;
+}
+
+.player{
+height: 50px;
+weight:50px;
+}
+.player:hover{
+  cursor: pointer;
+}
+ .number1{
+   position: relative;
+   top:100px;
+   left:100px;
+ }
+ .number2{
+   position: relative;
+   top:300px;
+   left:10px;
+ }
+.number3{
+  position: relative;
+  top:100px;
+  left:300px;
+}
+.number4{
+  position:relative;
+  top:190px;
+  left:50px;
+}
+.number5{
+  position:relative;
+  top:180px;
+  left:520px;
+}
+.number6{
+  position:relative;
+  top:200px:
+  left:250px;
+}
+.number7{
+  position:relative;
+  top:300px;
+  left:400px;
+}
+.number8{
+  position:relative;
+  bottom:20px;
+  left:25px;
+}
+.number9{
+  position:relative;
+  top:200px;
+  right:420px;
+}
+.number10{
+  position:relative;
+  top:0px;
+  left:335px;
+}
+.number11{
+  position:relative;
+  top:380px;
+  left:50px;
+}
+.number12{
+  position:relative;
+  top:220px;
+  left:240px;
+}
+.button {
+  position: absolute;
+}
+
+#rule1 {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  visibility: visible;
+}
+
+blockquote.center{
+  float:center;
+  margin:0 1em 1em 0;
+  background: white;
+  padding: 2em;
+  font-size: 2em;
+  width: 80%;
+  position: relative;
+}
+
+
+.img_container, .color_conatiner {
+  height: 100vh; /* this sets the height of each full width image section to that of the viewport.*/
+  position: relative;
+  display: flex;
+  background-position: center !important;
+}
+.video_container {
+  display: block;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slider_container {
+  width:100%;
+}
+
+.video_container header {
+  position: absolute;
+  text-align: center;
+height: 100vh;
+width: 100%;
+  top: 0;
+}
+
+.video_container header h1 {
+  position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+
+header {
+  width: 95%;
+  text-align: right;
+  margin: auto;
+}
+header {
+  color: #e6f2ff;
+  text-shadow:0 0 9px #000000;
+}
+header h1 {
+  margin: 0;
+  font-size: 8vw;
+}
+header a {
+  color: white;
+}
+/* Styles for individual header sections by class name. */
+
+.masthead {
+  background: url(../img/IMG_0105b.JPG) no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* the background image doesn't move when scrolling*/
+  overflow: hidden;
+}
+
+	.panel {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+	}
+
+.goalkeeper {
+  background: url(../img/IMG_16921.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#explain {
+  position: relative;
+  top: 5vh;
+}
+
+.girl {
+  background: url(../img/IMG_0071111.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+.game {
+  background: url(../img/IMG_1686.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.facts{
+  position:relative;
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 350px;
+}
+.fact1{
+  position:absolute;
+  left:10px;
+  top:20px;
+  visibility:hidden;
+}
+.plus{
+  position:absolute;
+  left:350px;
+  top:100px;
+  visibility:hidden;
+}
+.fact2{
+  position:absolute;
+  left:500px;
+  top:20px;
+  visibility:hidden;
+}
+.equals{
+  position: absolute;
+  left: 850px;
+  top:150px;
+  visibility:hidden;
+}
+.fact3{
+  position:absolute;
+  left: 1000px;
+  top:20px;
+  visibility:hidden;
+}
+
+header h1 {
+  font-size: 6vw;
+  position: absolute;
+  bottom: 70px;
+  right: 20px;
+}
+
+
+/* Text blocks */
+.content {
+  margin: 0 auto;
+  position: relative;
+  overflow: visible;
+  padding: 1em 20%;
+}
+
+footer {
+
+height: 100px;
+background: #000;
+color: #eee;
+text-align: center;
+padding: 1em;
+}
+
+video#foo {
+  width: 100%;
+}
+
+video#fop{
+  width:100%
+}
